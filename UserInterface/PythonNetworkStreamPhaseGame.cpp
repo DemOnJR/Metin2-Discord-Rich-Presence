@@ -32,8 +32,8 @@ void CPythonNetworkStream::Discord_Update(const bool ingame)
 		discordPresence.details = CPythonPlayer::Instance().GetName();
 	}
 	discordPresence.startTimestamp = StartTime;
-	discordPresence.largeImageKey = "image1"; //Change
-	discordPresence.largeImageText = "Metin2"; //Change
+	discordPresence.largeImageKey = "logo"; //Change
+	discordPresence.largeImageText = "Server Name"; //Change
 	Discord_UpdatePresence(&discordPresence);
 }
 
